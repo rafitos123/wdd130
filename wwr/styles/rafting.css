@@ -1,0 +1,77 @@
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+
+:root{
+    --primary-color: #003049;
+    --secondary-color: #669BBC;
+    --accent1-color: #FDF0D5;
+    --accent2-color: #C1121F;
+
+    --heading-font: 'Montserrat', serif;
+    --paragraph-font: 'Monteserrat', serif;
+
+    --nav-background-color: #780000;
+    --nav-link-color: #FDF0D5;
+    --nav-hover-link-color: #FDF0D5;
+    --nav-hover-background-color: #C1121F;
+}
+
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+.hero h1{
+    text-align: center;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    position: absolute;
+    background-color: var(--nav-background-color);
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+.hero p {
+    color: var(--accent1-color);
+}
+
+.hero {
+	position: relative;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero article img {
+    width: 150px;
+    height: auto;
+    float: right;
+    top: 50px;
+	right: 0px;
+}
+
+.stats {
+	position: absolute;
+    left: 100px;
+	top: 100px;
+	right: 100px;
+	background-color: var(--primary-color);
+	padding: 0.65rem;
+	opacity: 0.8;
+}
