@@ -37,6 +37,8 @@ body {
 h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
+    margin-top: 100px;
 }
 
 .hero p {
@@ -54,9 +56,6 @@ h2, h3, h4, h5, h6 {
     
 }
 
-a {
-    text-decoration: none;
-}
 
 .hero article img {
     width: 150px;
@@ -75,3 +74,75 @@ a {
 	padding: 0.65rem;
 	opacity: 0.8;
 }
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: auto;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+
+
+nav {
+	text-align: right;
+    background-color: var(--nav-background-color);
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+    background-color: var(--nav-background-color);
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: var(--accent1-color);
+	padding: 20px;
+	text-decoration: none;
+   
+
+}
+
+.navigation a:hover {
+	color: var(--secondary-color);
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.history {
+    display: flex;
+    justify-content: space-between;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 200px);
+    justify-content: center;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: right;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+

@@ -12,11 +12,13 @@
 <body>
     <header>
         <nav>
-            <img src="images/logo.png" alt="Rafting site logo" width="90">
-            <a href="#">Home</a>
-            <a href="#">About us</a>
-            <a href="#">Trips</a>
-            <a href="#">Contact Us</a>
+            <ul class="navigation">
+                <li><img src="images/logo.png" class="logo" alt="Rafting site logo" width="90"></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Trips</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -30,8 +32,15 @@
                 </p>
             </article>
         </div>
-            <section>
-                <h2>History</h2>
+            <h2>History</h2>    
+            <section class="history">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quisquam reiciendis maiores, ad voluptas impedit ratione placeat tenetur dolorem, 
+                    similique ex neque, et a nostrum deleniti non autem quis commodi corporis? 
+                    Reiciendis recusandae quam blanditiis vero iste pariatur necessitatibus 
+                    explicabo soluta.
+                </p>
+                <img src="images/history.jpg" alt="History" width="200">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                     Quisquam reiciendis maiores, ad voluptas impedit ratione placeat tenetur dolorem, 
                     similique ex neque, et a nostrum deleniti non autem quis commodi corporis? 
@@ -39,27 +48,46 @@
                     explicabo soluta.
                 </p>
             </section>
-            <section>
-                <h2>Adventure Awaits You!</h2>
-                <img src="images/rafting1.jpg" alt="Rafting">
-                <img src="images/rafting2.jpg" alt="Rafting">
-                <img src="images/rafting3.jpg" alt="Rafting">
-                <img src="images/rafting4.jpg" alt="Rafting">
-                <img src="images/rafting5.jpg" alt="Rafting">
+            <h2>Adventure Awaits You!</h2>
+            <section class="adventure">
+                <figure>
+                    <img src="images/1.jpg" alt="Rafting" width="100">
+                    <figcaption>That is awesome right?</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/2.jpg" alt="Rafting" width="100">
+                    <figcaption>The beautiful Mogi Guaçu river!</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/3.jpg" alt="Rafting" width="100">
+                    <figcaption>Come to be happy with us!</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/4.jpg" alt="Rafting" width="100">
+                    <figcaption>The Guaraná river</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/5.jpg" alt="Rafting" width="100">
+                    <figcaption>The great Mogi Mirim river!</figcaption>
+                </figure>
             </section>
         
     </main>
     <footer>
         <p>&copy;2023 🚣‍♂️Rafting Site Document🚣‍♂️ Rafael H. Antunes 🚣‍♂️ WDD 130</p>
-        <a href="facebook.com">
-            <img src="images/facebook.png" alt="Facebook page" width="30">
-        </a>
-        <a href="instagram.com">
-            <img src="images/instagram.png" alt="Instagram page" width="30">
-        </a>
-        <a href="web.whatsapp.com">
-            <img src="images/whatsapp.png" alt="WhatsApp Number" width="30">
-        </a>
+        <ul>
+           <li>
+                <a href="facebook.com">
+                    <img src="images/facebook.png" alt="Facebook page" width="20">
+                </a>
+            </li>
+            <li><a href="instagram.com">
+                <img src="images/instagram.png" alt="Instagram page" width="20">
+            </a></li>
+            <li><a href="web.whatsapp.com">
+                <img src="images/whatsapp.png" alt="WhatsApp Number" width="20">
+            </a></li>
+        </ul>
     </footer>
 </body>
 </html>
