@@ -195,7 +195,7 @@ input[type="checkbox"] {
     vertical-align: bottom;
 }
 
-button {
+ button {
     margin: 1rem;
     background-color: var(--nav-hover-background-color);
     color: #fff;
@@ -203,6 +203,8 @@ button {
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
+    align-content: center;
+    text-align: center;
 }
 
 button:hover {
@@ -219,5 +221,11 @@ label {
     display: grid;
     grid-template-columns: repeat(3, 3fr);
     font-style: italic;
+}
+
+.submit{
+    font-size: var(--heading-font);
+    text-align: center;
+    font-style: oblique;
 }
 
