@@ -210,6 +210,14 @@ button:hover {
 }
 
 label {
-   font-size: var(--paragraph-font);
+   font-size: var(--heading-font);
    text-align: left;
+   font-weight: bold;
 }
+
+.form {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    font-style: italic;
+}
+
